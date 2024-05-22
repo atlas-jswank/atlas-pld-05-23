@@ -1,3 +1,5 @@
+# React Redux Intro
+
 ## 0-node
 
 ### Setup
@@ -59,4 +61,4 @@ Implement a counter app using the functional component. Reuse the store and redu
 
 #### ToDoApp
 
-IMplement the todo app using the functional component. Reuse the store and reducer from `0-node`.
+Implement the todo app using the functional component. Reuse the store and reducer from `0-node`.
