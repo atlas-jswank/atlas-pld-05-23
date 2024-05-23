@@ -37,7 +37,7 @@ const reducer = (state = DEFAULT_STATE, action) => {
 const store = configureStore({
     reducer,
     middleware: (getDefaultMiddleware) =>
-        getDefaultMiddleware().concat(logger.default)
+        getDefaultMiddleware().concat(logger.default) // This adds a console log every time the state changes
 });
 
 /*
